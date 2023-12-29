@@ -8,7 +8,7 @@ use Marquine\Etl\Transformers\JsonEncode;
 
 class JsonEncodeTest extends TestCase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

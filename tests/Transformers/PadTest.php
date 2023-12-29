@@ -8,7 +8,7 @@ use Marquine\Etl\Transformers\Pad;
 
 class PasTest extends TestCase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

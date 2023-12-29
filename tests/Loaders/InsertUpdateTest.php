@@ -7,7 +7,7 @@ use Marquine\Etl\Loaders\InsertUpdate;
 
 class InsertUpdateTest extends TestCase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

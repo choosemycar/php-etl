@@ -8,7 +8,7 @@ use Marquine\Etl\Database\Transaction;
 
 class TransactionTest extends TestCase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
