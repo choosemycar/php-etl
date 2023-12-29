@@ -8,7 +8,7 @@ use Marquine\Etl\Transformers\Replace;
 
 class ReplaceTest extends TestCase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

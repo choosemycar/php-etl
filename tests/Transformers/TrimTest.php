@@ -8,7 +8,7 @@ use Marquine\Etl\Transformers\Trim;
 
 class TrimTest extends TestCase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
