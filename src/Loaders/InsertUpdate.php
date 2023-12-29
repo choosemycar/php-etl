@@ -230,7 +230,7 @@ class InsertUpdate extends Loader
         }
 
 	if ($this->columns) {
-            $mapped_columns_arr = array();
+            $mapped_columns_arr = [];
             $key_columns = array_intersect($this->columns, $this->key);
 
             foreach ($key_columns as $key => $column) {
